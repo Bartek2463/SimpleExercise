@@ -1,3 +1,5 @@
+package tuperele;
+
 import java.util.List;
 
 public class ObservedPin {

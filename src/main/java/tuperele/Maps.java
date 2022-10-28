@@ -1,4 +1,6 @@
 import java.io.UncheckedIOException;
+package tuperele;
+
 import java.util.Arrays;
 import java.util.stream.IntStream;
 

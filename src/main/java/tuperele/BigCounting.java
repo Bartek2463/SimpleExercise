@@ -1,3 +1,5 @@
+package tuperele;
+
 import javax.swing.text.html.HTMLEditorKit;
 import java.util.function.IntSupplier;
 import java.util.stream.IntStream;
