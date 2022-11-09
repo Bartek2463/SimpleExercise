@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import tuperele.PigLatin;
+import exercise.PigLatin;
 
 import static org.junit.jupiter.api.Assertions.*;
 

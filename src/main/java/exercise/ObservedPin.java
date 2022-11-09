@@ -1,4 +1,4 @@
-package tuperele;
+package exercise;
 
 import java.util.List;
 

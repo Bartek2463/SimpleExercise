@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import tuperele.BigCounting;
+import exercise.BigCounting;
 
 import static org.junit.jupiter.api.Assertions.*;
 

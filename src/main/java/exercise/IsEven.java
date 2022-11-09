@@ -1,4 +1,4 @@
-package tuperele;
+package exercise;
 
 public class IsEven {
     public static void main(String[] args) {

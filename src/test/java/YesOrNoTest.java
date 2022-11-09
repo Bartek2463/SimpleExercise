@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
-import tuperele.BigCounting;
-import tuperele.YesOrNo;
+import exercise.BigCounting;
+import exercise.YesOrNo;
 
 import static org.junit.jupiter.api.Assertions.*;
 

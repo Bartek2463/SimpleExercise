@@ -1,4 +1,4 @@
-package tuperele;
+package exercise;
 
 public class RgbToHex {
     public static void main(String[] args) {

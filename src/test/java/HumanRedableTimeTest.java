@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import tuperele.HumanReadableTime;
+import exercise.HumanReadableTime;
 
 import static org.junit.jupiter.api.Assertions.*;
 
