@@ -1,3 +1,5 @@
+package exercise;
+
 public class IsEven {
     public static void main(String[] args) {
         System.out.println(isEven("ultr53o?n"));

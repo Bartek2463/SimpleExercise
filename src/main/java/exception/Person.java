@@ -1,5 +1,6 @@
-package exceptions;
+package exception;
 
+import java.time.DateTimeException;
 import java.time.LocalDate;
 
 public class Person {
@@ -18,10 +19,12 @@ public class Person {
         return birthday;
     }
 
-    public void setBirthday(LocalDate birthday) throws InvalidBirthdayDate {
-        if (birthday.isAfter(LocalDate.now())) {
-//            throw new IllegalArgumentException("Bledna data nie moze byc z przyszloci");
-            throw new InvalidBirthdayDate("Bledna data nie moze byc z przyszloci");
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
+    }
+    public  void setBirthDay(LocalDate birthday){
+        if(birthday.isAfter(LocalDate.now())){
+            throw  new DateTimeException("The wrong date cannot be from the past");
         }
         this.birthday = birthday;
     }

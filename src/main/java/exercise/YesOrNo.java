@@ -1,3 +1,5 @@
+package exercise;
+
 public class YesOrNo {
     public static void main(String[] args) {
         System.out.println(true);

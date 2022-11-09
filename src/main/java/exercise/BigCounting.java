@@ -1,6 +1,4 @@
-import javax.swing.text.html.HTMLEditorKit;
-import java.util.function.IntSupplier;
-import java.util.stream.IntStream;
+package exercise;
 
 public class BigCounting {
     public static void main(String[] args) {

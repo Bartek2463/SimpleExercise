@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Test;
+import exercise.IsEven;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -8,7 +9,7 @@ class IsEvenTest {
 
     @Test
     void isEven() {
-        assertEquals("cba",IsEven.isEven("ab12?!c"));
+        assertEquals("cba", IsEven.isEven("ab12?!c"));
 
     }
     @Test
