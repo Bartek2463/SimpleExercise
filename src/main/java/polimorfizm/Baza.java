@@ -1,21 +1,24 @@
 package polimorfizm;
 
-public class Baza {
-    public static int withouttRcurat(int number){
-        int result = 1;
+import java.util.stream.IntStream;
 
-        if (number<0){
-            throw  new IllegalArgumentException();
-        }
-        while (number>1){
-            result*=number;
-            number--;
+public class Baza {
+    public static int withouttRcurat(int number) {
+
+        int previouselement = 0;
+        int currentelement = 1;
+        int result = 1;
+        for (int i = 2; i <= number; i++) {
+            result = previouselement + currentelement;
+            previouselement = currentelement;
+            currentelement = result;
         }
         return result;
+
     }
 
     public static void main(String[] args) {
-        System.out.println(withouttRcurat(3));
+        withouttRcurat(6);
     }
 
 }

@@ -13,7 +13,9 @@ public class WithoutRecuration {
     }
 
     public static void main(String[] args) {
-       System.out.println(withoutRecuration(10));
-        System.out.println(WithoutRecurationClassic.withoutRecuration(6));
+//       System.out.println(withoutRecuration(10));
+//        System.out.println(WithoutRecurationClassic.withoutRecuration(6));
+//        System.out.println(Fibonacci.getFiboSum(34));
+        System.out.println(ReverseString.reverse("Ala"));
     }
 }
