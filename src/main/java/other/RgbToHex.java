@@ -1,3 +1,5 @@
+package other;
+
 public class RgbToHex {
     public static void main(String[] args) {
         System.out.println(rgb(2300, 160, 5));

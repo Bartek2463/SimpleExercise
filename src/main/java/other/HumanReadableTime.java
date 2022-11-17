@@ -1,3 +1,5 @@
+package other;
+
 import java.sql.Time;
 import java.sql.Timestamp;
 import java.text.Format;
